@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper .navbar {
+  width: 100%;
+  height: 60px;
+  background: #212121;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #fff;
+  font-family: Alkatra;
+  align-items: center;
+}
+.wrapper .navbar .links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.wrapper .navbar .links a {
+  color: #fff;
+  font-family: Alkatra;
+  font-size: 20px;
+  font-style: normal;
+}
+.wrapper .navbar .login ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .navbar .login ul a {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-family: Alkatra;
+  font-style: normal;
+}
+.wrapper .navbar ul a:hover {
+  transition: 0.4s;
+  color: rgb(100, 107, 117);
+}
+.wrapper .navbar h1:hover {
+  color: rgb(100, 107, 117);
+  transition: 0.4s;
+}
+/* @keyframes hovering {
+  from {
+  }
+} */
+.wrapper .main {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  background: #d9d9d9;
+}
+.wrapper .main a img {
+  width: 440px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  transition: 0.4s;
+}
+.wrapper .main a img:hover {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  width: 490px;
+  height: 330px;
+}
+.wrapper .main2 {
+  display: flex;
+  /* flex-direction: ; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 650px;
+}
+.wrapper .main2 .box {
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+  background: #d9d9d9;
+  width: 80%;
+  height: 400px;
+}
+.wrapper .main2 .box hr {
+  margin: 5px;
+}
+
+.wrapper .main2 .box .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+.wrapper .main2 .box .text {
+  font-family: Alkatra;
+  font-style: normal;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .main2 .box .content .block1 {
+  margin-top: 12px;
+  width: 200px;
+  height: 280px;
+  border-radius: 10px;
+  background: #727272;
+}
+.wrapper .main2 h1:hover {
+  color: rgb(71, 55, 55);
+  transition: 0.4s;
+}
